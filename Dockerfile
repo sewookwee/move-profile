@@ -18,5 +18,5 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY --chown=user *.py *.css /
 
-ENTRYPOINT ["solara", "run", "move_profile.py", "--host=0.0.0.0", "--port", "7860"]
+ENTRYPOINT ["solara", "run", "home_finder_profile.py", "--host=0.0.0.0", "--port", "7860"]
 

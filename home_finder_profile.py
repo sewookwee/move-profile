@@ -276,7 +276,7 @@ def Page():
                 solara.v.Icon(children=["mdi-compass-rose"], size="36px")
                 solara.HTML(
                     tag="h2",
-                    unsafe_innerHTML="Wanderlust",
+                    unsafe_innerHTML="Home Finder Profile",
                     style={"display": "inline-block"},
                 )
             with solara.Row(
@@ -292,8 +292,8 @@ def Page():
                         icon=True,
                         tag="a",
                         attributes={
-                            "href": "https://github.com/widgetti/wanderlust",
-                            "title": "Wanderlust Source Code",
+                            "href": "https://github.com/sewookwee/move-profile",
+                            "title": "Home Finder Profile Source Code",
                             "target": "_blank",
                         },
                     ):
